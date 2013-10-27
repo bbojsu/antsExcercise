@@ -1,4 +1,4 @@
-Excersise description
+Exercise description
 =====================
 
 Write classes to represent 3 different types of Ant - Worker, Queen and Soldier.
