@@ -1,0 +1,22 @@
+
+.deadAnt {
+	font-size: 12px;
+	color:red;
+}
+.liveAnt {
+	font-size: 12px;
+	color:green;
+}
+
+table{
+	border-collapse:collapse;
+}
+
+table thead tr th{
+	border-bottom: 3px double black;
+	padding: 0 0 0 10px;
+}
+table tbody tr td{
+	border-bottom: 1px solid black;
+	padding: 0 0 0 10px;
+}
