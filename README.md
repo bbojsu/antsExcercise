@@ -7,7 +7,7 @@ Each Ant has a floating-point health property, which is not writable externally 
 
 Each Ant has a Damage() method that takes a single integer parameter that should be a value between 0 and 100. When this method is called, the health of the ant is to be reduced by that percentage of their current health.
 
-When a Soldier has a health below 66%, it is injured and cannot fight and therefore is pronounced Dead. When a Queen has a health below 20%, or a Worker below 50%, it is pronounced dead. This 'Dead' property should be readable from each Ant.
+When a Soldier has a health below 66%, it is injured and cannot fight and therefore is pronounced Dead. When a Queen has a health below 20%, or a Worker below 50%, it is pronounced dead.
 
 When an Ant is dead, no further health deductions should be recorded by the Ant, although the Damage() method should still be able to be invoked without error.
 
